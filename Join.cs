@@ -7,7 +7,7 @@ public static class Join
         return string.Join(separator, src);
     }
 
-    public static string JoinToString<T>(this IEnumerable<T> src, Func<T, T> predicate, string separator = ",")
+    public static string JoinToString<TSource, TResult>(this IEnumerable<TSource> src, Func<TSource, TResult> predicate, string separator = ",")
     {
         return string.Join(separator, src.Select(predicate));
     }
