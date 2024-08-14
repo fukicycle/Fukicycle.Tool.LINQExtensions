@@ -4,6 +4,23 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Fukicycle.Tool.LINQExtensions</PackageId>
+    <Title>Fukicycle.Tool.LINQExtensions</Title>
+    <Version>0.1.0</Version>
+    <Description></Description>
+    <AssemblyName>Fukicycle.Tool.LINQExtensions</AssemblyName>
+    <Authors>fukicycle</Authors>
+    <PackageLicenceExpression>MIT</PackageLicenceExpression>
+    <PackageProjectUrl>https://github.com/fukicycle/Fukicycle.Tool.LINQExtensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fukicycle/Fukicycle.Tool.LINQExtensions</RepositoryUrl>
+    <PackageTags>dotnet;LINQ;Extension;Random;</PackageTags>
+    <Copyright>Copyright (c) 2024 fukicycle</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
-
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
